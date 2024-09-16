@@ -1,0 +1,65 @@
+programa
+
+	declare numero a, b, c.
+	declare texto d.
+
+	
+	escreva("Digite A").
+	leia (a).
+	
+	escreva("Digite B").
+	leia (b).
+	
+	se (a<b) entao
+	{
+		c := a + b.
+	}senao
+	{
+		c := a - b.
+	}
+	
+	se (a<b) entao
+	{
+		c := a * b.
+	}
+	
+	enquanto(a > b)
+	{
+		b := b / 1.
+	}
+
+	escreva("C e igual a ").
+	escreva(c).
+	
+	d := "exemplo".
+	c := "d".
+	
+	escolha (d)
+	{
+		caso "exemplo":
+			c := 3.
+			fim.
+			
+		padrao:
+			c := 2.
+	}
+	
+	escolha (c)
+	{
+		caso 1:
+			c := 3.
+			fim.
+			
+		caso 2:
+			c := 2.
+			fim.
+		
+		caso 3:
+			c := 1.
+			fim.
+	}
+	
+	escreva ("D e igual a ").
+	escreva (d).
+	
+fimprog.
